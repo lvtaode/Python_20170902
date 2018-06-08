@@ -24,3 +24,30 @@ print(-123.456)
 print(1.234e10)
 
 print(9.87654321e-10)
+
+# 字符串 String
+
+print('你好！')
+
+print("您好！")
+
+print("'")
+
+print('"')
+
+print('\'\"')
+
+print("\'\"")
+
+print('\\')
+
+print('\\\t\\')  # \    \
+
+print(r'\\\t\\')  # regexp
+
+print(r'\\')
+
+print('白日依山尽，\n黄河入海流。')
+
+print('''白日依山尽，
+黄河入海流。''')
