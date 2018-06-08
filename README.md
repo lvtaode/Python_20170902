@@ -15,3 +15,7 @@
 ### Number
 
 ### String
+
+### Boolean
+
+### None

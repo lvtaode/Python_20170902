@@ -51,3 +51,39 @@ print('白日依山尽，\n黄河入海流。')
 
 print('''白日依山尽，
 黄河入海流。''')
+
+# 布尔 true false
+
+print(True)
+
+print(False)
+
+print(1 < 2)
+
+print(1 > 2)
+
+print('---------')
+print(True and True)
+print(True and False)
+print(False and True)
+print(False and False)
+
+print('---------')
+print(True or True)
+print(True or False)
+print(False or True)
+print(False or False)
+
+print(not True)
+print(not False)
+
+print(None)
+
+# score = input('input student\'s score:')
+
+passed = False
+
+if passed:
+    print('passed...')
+else:
+    print('failed...')
