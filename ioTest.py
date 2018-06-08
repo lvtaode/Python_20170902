@@ -8,6 +8,11 @@ print(100 + 200)
 print('100 + 200 = ', 100 + 200)
 
 # Java SE Scanner
+# comment
+
+# ----------------
+# hello world
+# ----------------
 
 name = input('input your name: ')
 
