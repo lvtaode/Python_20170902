@@ -52,7 +52,7 @@ print('白日依山尽，\n黄河入海流。')
 print('''白日依山尽，
 黄河入海流。''')
 
-# 布尔 true false
+# 布尔 True False
 
 print(True)
 
@@ -81,9 +81,10 @@ print(None)
 
 # score = input('input student\'s score:')
 
-passed = False
+passed = True
 
 if passed:
     print('passed...')
 else:
     print('failed...')
+    print('test...')
