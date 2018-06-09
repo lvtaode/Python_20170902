@@ -25,3 +25,5 @@ b = a
 a = '1234'
 
 print(b)  # ?
+
+print(a)
