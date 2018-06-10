@@ -1,10 +1,10 @@
 #  list
 
-list1 = ['a', 'b', 'c', 'd']
+list1 = ['a', 'b', 'c', 'd']  # Java: String[] arr = {"a", "", ""};
 
 print(list1)
 
-print(len(list1))
+print(len(list1))  # Java: arr.length
 
 print(list1[0])
 

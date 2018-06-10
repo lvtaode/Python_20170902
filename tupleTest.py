@@ -12,7 +12,7 @@ tuple2 = ()
 
 print(tuple2)
 
-tuple3 = (True,)
+tuple3 = (123.456,)
 
 print(tuple3)  # (True)?
 
