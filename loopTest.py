@@ -39,5 +39,10 @@ while n <= 10:
     n += 1
 
 # print 100 之内的所有奇数
+n = 0
 
-
+while n < 100:
+    n = n + 1  # Java n++;
+    if n % 2 == 0:  # n 是偶数
+        continue
+    print(n)
