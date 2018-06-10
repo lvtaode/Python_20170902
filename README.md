@@ -12,7 +12,7 @@
 
 2. PyCharm: pycharm-professional-2018.1.4.exe
 
-### IO
+### input / print
 
 ## H2
 
@@ -34,7 +34,7 @@
 
 ## H4
 
-### if / else
+### if / else / elif
 
 ### for in / while / break / continue
 
