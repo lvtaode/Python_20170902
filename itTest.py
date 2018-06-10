@@ -16,5 +16,13 @@ elif score >= 60:
 else:
     print('D')
 
+grade = input("input student's grade: ")
+
+if int(grade) >= 60:
+    print('passed.')
+else:
+    print('failed.')
+
+
 
 
