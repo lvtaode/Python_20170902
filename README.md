@@ -28,6 +28,8 @@
 
 ### variable
 
+### constant
+
 ### list
 
 ### tuple
