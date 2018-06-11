@@ -21,3 +21,22 @@ print(1 + int('2'))
 # str
 # bool
 
+print(float('1.23'))
+print(str(1.23))
+print(bool(0))
+print(bool(1))
+print(bool(10))
+print(bool(''))
+print(bool('test'))
+print(bool(None))
+
+print(int(1.23))
+print(int(1.99))
+print(int(.99))
+
+test_abs = abs  #
+
+print(test_abs(-1.234))
+
+
+
