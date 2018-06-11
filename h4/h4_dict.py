@@ -32,4 +32,10 @@ dict2['k4'] = 123.456
 
 print(dict2['k4'])
 
+print(dict2.keys())
+
+print(dict2.values())
+
+print(dict2.items())
+
 
