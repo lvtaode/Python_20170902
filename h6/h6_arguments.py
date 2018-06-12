@@ -77,4 +77,8 @@ def sum(*n):
 
 print(sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 
+list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+print(sum(list1[0], list1[1], list1[-1]))
+
+print(sum(*list1))
