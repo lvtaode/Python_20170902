@@ -45,7 +45,9 @@ def none_return_func(x, y):
     x + y
     return
 
+
 print(none_return_func(1, 2))
+
 
 def multiple_return_func(x, y):
     return x, y
@@ -56,3 +58,9 @@ a, b = multiple_return_func(1, 2)
 print(a, b)
 
 print(multiple_return_func(1, 2))  # tuple
+
+# int i, j, k = 0;
+
+i, j, k = 0, 1, 2
+
+print(i, j, k)
