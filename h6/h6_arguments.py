@@ -17,7 +17,7 @@ print(cube(2))
 
 def power(x, n):
     p = 1
-    while (n > 0):
+    while n > 0:
         p = p * x
         n -= 1
     return p
@@ -34,7 +34,7 @@ print(power(1234, 1234))
 
 def power2(x, n=2):
     p = 1
-    while (n > 0):
+    while n > 0:
         p = p * x
         n -= 1
     return p
@@ -47,7 +47,7 @@ print(power2(2))
 
 def power3(x, n=2):
     p = 1
-    while (n > 0):
+    while n > 0:
         p = p * x
         n -= 1
     return p
