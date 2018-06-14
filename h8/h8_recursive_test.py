@@ -18,4 +18,32 @@ print(fact(9))
 
 # A B C n
 
+'''
+// Java:
 
+private static void hanoi(String src, String with, String dest, int n) {
+    if (n == 1) {
+        print(src + "->" + dest);    
+    } else {
+        hanoi(src, dest, with, n - 1);
+        print(src + "->" + dest);
+        hanoi(with, src, dest, n - 1);
+    }
+}
+
+public static void main(String[] args) {
+    hanoi("A", "B", "C", 3);
+}
+'''
+
+
+def hanoi(src, use, dest, n):
+    if n == 1:
+        print(src, '->', dest)
+    else:
+        hanoi(src, dest, use, n - 1)
+        print(src, '->', dest)
+        hanoi(use, src, dest, n - 1)
+
+
+hanoi('A', 'B', 'C', 3)
