@@ -67,6 +67,11 @@ student4('Tom', 18, loc='Beijing')
 # function argument: 位置 / 默认值 / 可变 / 关键字 / 命名关键字
 
 def test_function(a, b, c=0, *args, d, **kw):
-    pass
+    print(a, b, c, args, d, kw)
 
 
+print(test_function(1, 2, d=''))
+print(test_function(1, 2, 3, 4, 5, 6, d=7))
+
+dict3 = {'k1': 'v1', 'k2': 'v2', 'k3': 123, 'k4': False};
+print(test_function(1, 2, 3, 4, 5, 6, d=7, **dict3))
