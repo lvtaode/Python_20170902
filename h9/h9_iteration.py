@@ -23,3 +23,5 @@ for item in dict1.items():
 
 for char in 'ABCEDFG':
     print(char)
+
+
