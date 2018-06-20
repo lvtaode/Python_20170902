@@ -17,4 +17,3 @@ for index, value in enumerate(list1):
 
 for x, y in [(1, 2), (3, 4), (5, 6)]:
     print(x, y)
-   
